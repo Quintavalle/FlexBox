@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.box {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.yellow {
+    background-color: #ffff99;
+    font-size: 20px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    /* Posiziona le inner box verticalmente */
+    align-items: center;
+    /* Posiziona le inner box all'inizio della casella yellow */
+    padding-top: 60px;
+    justify-content: flex-start;
+}
+
+.red {
+    background-color: #ffcccc;
+    font-size: 20px;
+    flex-grow: 2;
+}
+
+.green {
+    background-color: #ccffcc;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.orange {
+    background-color: #ffd699;
+    font-size: 20px;
+    flex-grow: 3;
+}
+
+.blue {
+    background-color: #99ccff;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.inner-box {
+    width: 60px;
+    height: 80px;
+    background-color: #fff;
+    margin: 5px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
